@@ -8,12 +8,8 @@
 # Environment & secrets — NEVER commit a .env or a populated credentials file
 # ----------------------------------------------------------------------------
 
-.env
-.env.*
 !.env.example
 !.env.*.example
-**/.env
-**/.env.*
 !**/.env.example
 !**/.env.*.example
 
@@ -181,7 +177,6 @@ media/
 # IDE / editor / OS
 # ----------------------------------------------------------------------------
 
-.vscode/
 .cursor/
 .idea/
 
@@ -229,3 +224,4 @@ frontend/scripts/.artifacts/
 install-*.log
 uninstall-*.log
 *.core
+config.bat
